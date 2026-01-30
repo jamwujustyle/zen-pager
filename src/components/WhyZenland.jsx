@@ -22,14 +22,7 @@ const comparisonData = [
     zenlandIcon: '✨',
     centralizedIcon: '📊'
   },
-  {
-    feature: 'Commission-Free',
-    zenland: 'Up to $2,000 at $0.00 fee',
-    centralized: 'Not available',
-    zenlandIcon: '🎁',
-    centralizedIcon: '❌',
-    zenlandHighlight: true
-  },
+
   {
     feature: 'Security',
     zenland: 'Blockchain-based, audited',

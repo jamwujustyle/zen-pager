@@ -43,37 +43,18 @@ function EscrowSection() {
 
           <div className="network-costs">
             <p className="network-costs-title">
-              Choice between 4 blockchain networks and major stablecoins.
-              Average price per contract deployment is less than 1 cup of coffee (except Ethereum)!
+              Deploy on Ethereum mainnet with major stablecoins (USDT, USDC).
+              Pay only the network gas fee — no hidden costs.
             </p>
-            <div className="network-grid">
-              <div className="network-item">
-                <div className="network-icon bnb">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#F0B90B"/><path d="M10 4L12.5 6.5L10 9L7.5 6.5L10 4Z" fill="white"/><path d="M14 8L16.5 10.5L14 13L11.5 10.5L14 8Z" fill="white"/><path d="M6 8L8.5 10.5L6 13L3.5 10.5L6 8Z" fill="white"/><path d="M10 12L12.5 14.5L10 17L7.5 14.5L10 12Z" fill="white"/></svg>
-                </div>
-                <span className="network-name">BNB</span>
-                <span className="network-price">~$2</span>
-              </div>
-              <div className="network-item">
-                <div className="network-icon arb">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#28A0F0"/><path d="M6 14L10 6L14 14H11L10 12L9 14H6Z" fill="white"/></svg>
-                </div>
-                <span className="network-name">ARB</span>
-                <span className="network-price">~$0.005</span>
-              </div>
-              <div className="network-item">
+            <div className="network-single">
+              <div className="network-item featured">
                 <div className="network-icon eth">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#627EEA"/><path d="M10 3V8.5L14 10.25L10 3Z" fill="white" fillOpacity="0.6"/><path d="M10 3L6 10.25L10 8.5V3Z" fill="white"/><path d="M10 13.5V17L14 11L10 13.5Z" fill="white" fillOpacity="0.6"/><path d="M10 17V13.5L6 11L10 17Z" fill="white"/></svg>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#627EEA"/><path d="M12 4V10.5L17 12.25L12 4Z" fill="white" fillOpacity="0.6"/><path d="M12 4L7 12.25L12 10.5V4Z" fill="white"/><path d="M12 16V20L17 13L12 16Z" fill="white" fillOpacity="0.6"/><path d="M12 20V16L7 13L12 20Z" fill="white"/></svg>
                 </div>
-                <span className="network-name">ETH</span>
-                <span className="network-price">~$40</span>
-              </div>
-              <div className="network-item">
-                <div className="network-icon matic">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#8247E5"/><path d="M13 8L10.5 6.5L8 8V11L10.5 12.5L13 11V8Z" stroke="white" strokeWidth="1.5" strokeLinejoin="round"/></svg>
+                <div className="network-info">
+                  <span className="network-name">Ethereum Mainnet</span>
+                  <span className="network-desc">Deploy contracts on the most secure and decentralized network</span>
                 </div>
-                <span className="network-name">MATIC</span>
-                <span className="network-price">~$0.2</span>
               </div>
             </div>
           </div>
@@ -126,13 +107,13 @@ function EscrowSection() {
                 <label>Agreed amount</label>
                 <div className="form-input-with-unit">
                   <span>5000</span>
-                  <span className="unit">USDT(BEP20)</span>
+                  <span className="unit">USDT(ERC20)</span>
                 </div>
               </div>
               <div className="form-footer">
                 <div className="fee-info">
-                  <span>Zenland fee: <strong>$43.75</strong></span>
-                  <span className="fee-split">Zenland fee payer: 50/50</span>
+                  <span>Zenland fee: <strong>$50.00</strong></span>
+                  <span className="fee-split">1% · max $50</span>
                 </div>
                 <div className="form-actions">
                   <button className="btn-clear">Clear</button>

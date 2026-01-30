@@ -21,7 +21,7 @@ function Hero() {
           </div>
           <h1 className="hero-title">
             Your Gateway to<br />
-            <span className="text-gradient">Smart Contracts</span>
+            <span className="text-gradient">Smart Contracts</span>.
           </h1>
           <p className="hero-description">
             Zenland connects buyers and sellers through non-custodial smart contracts.
@@ -42,13 +42,13 @@ function Hero() {
 
           <div className="hero-stats">
             <div className="stat-item">
-              <span className="stat-value">6</span>
-              <span className="stat-label">EVM Networks</span>
+              <span className="stat-value">ETH</span>
+              <span className="stat-label">Ethereum Mainnet</span>
             </div>
             <div className="stat-divider"></div>
             <div className="stat-item">
-              <span className="stat-value">$2K+</span>
-              <span className="stat-label">Commission-Free</span>
+              <span className="stat-value">1%</span>
+              <span className="stat-label">Service Fee</span>
             </div>
             <div className="stat-divider"></div>
             <div className="stat-item">
@@ -67,9 +67,9 @@ function Hero() {
                   <span className="step-indicator">01</span>
                   <span className="card-title">Create Contract</span>
                 </div>
-                <div className="network-badge">
+                <div className="network-badge ethereum">
                   <span className="network-dot"></span>
-                  BNB Chain
+                  Ethereum
                 </div>
               </div>
 
@@ -119,12 +119,15 @@ function Hero() {
 
                   <div className="form-footer">
                     <div className="fee-row">
-                      <span className="fee-label">Network Fee</span>
-                      <span className="fee-value">~$2.00</span>
+                      <span className="fee-label">Network Fee (gas)</span>
+                      <span className="fee-value">~$0.10</span>
                     </div>
                     <div className="fee-row">
-                      <span className="fee-label">Service Fee</span>
-                      <span className="fee-value highlight">$0.00</span>
+                      <span className="fee-label">Service Fee (1%)</span>
+                      <span className="fee-value">$50.00</span>
+                    </div>
+                    <div className="fee-row fee-note">
+                      <span className="fee-label-small">min $0.50 · max $50</span>
                     </div>
                   </div>
                 </div>
